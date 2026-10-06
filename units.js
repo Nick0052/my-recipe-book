@@ -9,6 +9,8 @@
           cup: ["koppie", "koppies"], oz: ["ons", "onse"], lb: ["pond", "pond"], inch: ["duim", "duim"], f: "°F" },
     pt: { units: "Unidades", metric: "Métrico", imperial: "Imperial", tsp: ["colher de chá", "colheres de chá"], tbsp: ["colher de sopa", "colheres de sopa"],
           cup: ["chávena", "chávenas"], oz: ["oz", "oz"], lb: ["lb", "lb"], inch: ["pol.", "pol."], f: "°F" },
+    id: { units: "Satuan", metric: "Metrik", imperial: "Imperial", tsp: ["sdt", "sdt"], tbsp: ["sdm", "sdm"],
+          cup: ["cangkir", "cangkir"], oz: ["oz", "oz"], lb: ["lb", "lb"], inch: ["inci", "inci"], f: "°F" },
     ar: { units: "الوحدات", metric: "متري", imperial: "إمبراطوري", tsp: ["ملعقة صغيرة", "ملعقة صغيرة"], tbsp: ["ملعقة كبيرة", "ملعقة كبيرة"],
           cup: ["كوب", "كوب"], oz: ["أونصة", "أونصة"], lb: ["رطل", "رطل"], inch: ["بوصة", "بوصة"], f: "درجة فهرنهايت" }
   };

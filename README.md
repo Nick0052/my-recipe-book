@@ -1,7 +1,7 @@
 # Nico se Resepteboek
 
-A recipe website with 64 traditional South African (boerekos) recipes in four
-languages: Afrikaans, English, Portuguese (Portugal) and Arabic (UAE).
+A recipe website with 64 traditional South African (boerekos) recipes in five
+languages: Afrikaans, English, Portuguese (Portugal), Arabic (UAE) and Indonesian.
 
 It is a plain static site: HTML, one stylesheet and three small scripts. There is
 nothing to install and no server is needed.
@@ -19,7 +19,7 @@ web host, keeping the folders as they are.
 | File or folder | What it is |
 |---|---|
 | `index.html` | The language chooser (start page) |
-| `af/`, `en/`, `pt/`, `ar/` | One folder per language. Each has its own `index.html` (the recipe list) and 64 recipe pages |
+| `af/`, `en/`, `pt/`, `ar/`, `id/` | One folder per language. Each has its own `index.html` (the recipe list) and 64 recipe pages |
 | `style.css` | The look of every page, including light and dark mode and the right-to-left Arabic layout |
 | `units.js` | The Metric / Imperial toggle on recipe pages |
 | `halaal.js` | The Original / Halaal toggle (English and Arabic only) |
@@ -27,8 +27,8 @@ web host, keeping the folders as they are.
 
 ## What the site does
 
-- **Four languages.** Every page links to the same page in the other three.
-- **Translated recipe names.** English, Portuguese and Arabic show a translated
+- **Five languages.** Every page links to the same page in the other four.
+- **Translated recipe names.** English, Portuguese, Arabic and Indonesian show a translated
   name; Afrikaans keeps the original. Dishes with no real equivalent (Bobotie,
   Sosaties, Vetkoek, Koeksisters, Chakalaka) keep their own name.
 - **Search and categories.** The recipe list has a search box and a row of
@@ -50,7 +50,7 @@ web host, keeping the folders as they are.
 - **The recipes have not been test-cooked.** The first 25 came from the original
   recipe book. The other 39 are standard versions written for this site.
 - **The translations have not been checked by native speakers.** This matters
-  most for the Arabic and Portuguese pages.
+  most for the Arabic, Portuguese and Indonesian pages.
 - **The halaal substitutions have not been reviewed** by anyone qualified to
   rule on them.
 - **Tips are hidden.** Every recipe page still contains its tip, switched off by
@@ -60,9 +60,9 @@ web host, keeping the folders as they are.
 
 ## Changing a recipe
 
-Each recipe exists as four separate pages, one per language, for example
-`af/21-melktert.html`, `en/21-melktert.html`, `pt/21-melktert.html` and
-`ar/21-melktert.html`. A change made by hand has to be made in each of them.
+Each recipe exists as five separate pages, one per language, for example
+`af/21-melktert.html`, `en/21-melktert.html`, `pt/21-melktert.html`,
+`ar/21-melktert.html` and `id/21-melktert.html`. A change made by hand has to be made in each of them.
 
 The pages were produced by a build script that is not part of this folder.
 
